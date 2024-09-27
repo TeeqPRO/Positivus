@@ -1,0 +1,9 @@
+.minusIconVer1 {
+    width: 58px;
+    height: 58px;
+}
+
+.minusIconVer1 > img {
+    width: 100%;
+    height: 100%;
+}
