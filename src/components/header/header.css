@@ -1,0 +1,32 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.Header > .Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 531px;
+    height: fit-content;
+}
+
+.Header > .Text > h4 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    max-width: 498px;
+}
+
+.Header > .Illustration {
+    display: flex;
+    width: 601px;
+    height: 515px;
+}
+
+.Header > .Illustration > img {
+    width: 601px;
+    height: 515px;
+}

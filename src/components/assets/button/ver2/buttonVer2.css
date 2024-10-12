@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: fit-content;
     height: fit-content;
     border-radius: 14px;
 }
@@ -10,6 +9,7 @@
 .buttonVer2 > a {
     padding: 20px 35px 20px 35px;
     justify-content: center;
+    width: 100%;
     align-items: center;
     text-align: center;
     font-size: 20px;

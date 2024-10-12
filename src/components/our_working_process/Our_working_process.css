@@ -1,0 +1,31 @@
+.Our-working-process {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 140px;
+}
+
+.Our-working-process > .Title {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: fit-content;
+}
+
+.Our-working-process > .Title > p {
+    display: flex;
+    width: 292px;
+    flex-direction: column;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    margin-left: 40px;
+}
+
+.Our-working-process > .Content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    margin-top: 63px;
+}

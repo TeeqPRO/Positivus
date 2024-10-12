@@ -1,0 +1,40 @@
+.Block-Card-Ver1, .Block-Card-Ver2, .Block-Card-Ver3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    height: 310px;
+    box-shadow: 0px 5px 0px 0px var(--secondary-black);
+    border-radius: 45px;
+    border: 1px solid var(--secondary-black);
+}
+
+.Block-Card-Ver1 {
+    background-color: var(--secondary-white);
+}
+
+.Block-Card-Ver2 {
+    background-color: var(--main);
+}
+
+.Block-Card-Ver3 {
+    background-color: var(--secondary-black);
+}
+
+.Block-Card-Ver1 > .Left , .Block-Card-Ver2 > .Left , .Block-Card-Ver3 > .Left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 221px;
+    height: 210px;
+    margin: 50px 50px 50px 50px;
+}
+
+.Block-Card-Ver1 > .Right, .Block-Card-Ver2 > .Right, .Block-Card-Ver3 > .Right {
+    display: flex;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

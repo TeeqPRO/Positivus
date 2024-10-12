@@ -1,0 +1,14 @@
+.Logotypes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+    width: 100%;
+    background-color: white;
+    height: fit-content;;
+}
+
+.Logotypes > img {
+    filter: grayscale(100%);
+    mix-blend-mode: darken;
+}

@@ -1,6 +1,7 @@
 .plusIconVer1 {
     width: 58px;
     height: 58px;
+    cursor: pointer;
 }
 
 .plusIconVer1 > img {

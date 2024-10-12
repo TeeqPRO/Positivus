@@ -1,0 +1,84 @@
+.Owp-Component {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 30px;
+    background-color: var(--secondary-white);
+    border: 1px solid var(--secondary-black);
+    box-shadow: 0px 5px 0px 0px var(--secondary-black);
+    border-radius: 45px;
+}
+
+.Owp-Component-Unfolded {
+    background-color: var(--main);
+}
+
+.Owp-Component > .Top {
+    display: flex;
+    flex-direction: row;
+    margin-top: 41px;
+    justify-content: space-between;
+    margin-bottom: 41px;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+}
+
+.Owp-Component-Unfolded > .Top {
+    margin-top: 41px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.Owp-Component > .Top > .Left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Owp-Component > .Top > .Left > .Number > p {
+    font-weight: 500;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.Owp-Component > .Top > .Left > .Title > p {
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0;
+    margin-left: 25px;
+    padding: 0;
+}
+
+.Owp-Component > .Top > .Right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Owp-Component > .Description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 41px;
+}
+
+.Owp-Component > .Description > .Line {
+    display: flex;
+    height: 1px;
+    background-color: var(--secondary-black);
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.Owp-Component > .Description > p {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}

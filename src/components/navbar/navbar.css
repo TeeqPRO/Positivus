@@ -1,0 +1,86 @@
+.Navbar {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    height: fit-content;
+    background-color: var(--font-white);
+    border-right: 2px solid var(--font-white);
+    border-right: 2px solid var(--font-white);
+    z-index: 1000;
+}
+
+.Navbar.visible {
+    top: 0px;
+    opacity: 1;
+    transition: top 0.5s ease, opacity 0.5s ease;
+}
+
+.Navbar.hidden {
+    top: -120px;
+    opacity: 0;
+    transition: top 0.5s ease, opacity 0.5s ease;
+}
+
+.Navbar-desktop {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Navbar-desktop > .Navbar-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+}
+
+.Navbar-desktop > .Navbar-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 811px;
+}
+
+.Navbar-desktop > .Navbar-right > .List {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.Navbar-desktop > .Navbar-right > .List > ul {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 40px;
+}
+
+.Navbar-desktop > .Navbar-right > .List > ul > li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    height: fit-content;
+    color: var(--font-black);
+    font-size: 20px;
+}  
+
+.Navbar-desktop > .Navbar-right > .List > ul > li > a {
+    text-decoration: none;
+    color: var(--font-black);
+    font-size: 20px;
+}
+
+
+.Navbar-mobile {
+    display: none;
+    visibility: hidden;
+    width: 100%;
+    justify-content: space-between;
+}

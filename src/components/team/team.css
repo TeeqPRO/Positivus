@@ -1,0 +1,23 @@
+.Team {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 140px;
+}
+
+.Team > .Title {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: fit-content;
+}
+
+.Team > .Title > p {
+    display: flex;
+    width: 580px;
+    flex-direction: column;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    margin-left: 40px;
+}

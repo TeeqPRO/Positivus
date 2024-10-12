@@ -1,0 +1,98 @@
+.Case_studies {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 140px;
+}
+
+.Case_studies > .Title {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: fit-content;
+}
+
+.Case_studies > .Title > p {
+    display: flex;
+    width: 580px;
+    flex-direction: column;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    margin-left: 40px;
+}
+
+.Case_studies > .Content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 326px;
+    background-color: var(--secondary-black);
+    border-radius: 45px;
+    margin-top: 80px;
+}
+
+.Case_studies > .Content > table {
+    margin-left: 60px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-right: 60px;
+    width: 1114px;
+    height: 186px;
+    border-collapse: collapse;
+    display: flex;
+}
+
+.Case_studies > .Content > table > tr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    color: var(--font-white);
+}
+
+.Case_studies > .Content > table > tr > td {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    height: 100%;
+}
+
+.Case_studies > .Content > table > tr > td > div > p {
+    margin: 0;
+}
+
+.Case_studies > .Content > table > tr > .left {
+    text-align: left;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Case_studies > .Content > table > tr > .middle {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid var(--font-white);
+    border-right: 1px solid var(--font-white);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Case_studies > .Content > table > tr > .right {
+    text-align: left;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.Case_studies > .Content > table > tr > td > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 286px;
+    height: calc(100% + 20px);
+    padding: 0;
+    margin: 0;
+}
