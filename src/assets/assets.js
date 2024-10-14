@@ -25,6 +25,13 @@ import Brand4 from './Brand4.svg';
 import Brand5 from './Brand5.svg';
 import Brand6 from './Brand6.svg';
 import BurgerMenuIcon from './BurgerMenuIcon.svg';
+import Team1 from './Team1.svg';
+import Team2 from './Team2.svg';
+import Team3 from './Team3.svg';
+import Team4 from './Team4.svg';
+import Team5 from './Team5.svg';
+import Team6 from './Team6.svg';
+import Team7 from './Team7.svg';
 
 export const assets = {
     LogoVar1,
@@ -53,5 +60,12 @@ export const assets = {
     Brand4,
     Brand5,
     Brand6,
-    BurgerMenuIcon
+    BurgerMenuIcon,
+    Team1,
+    Team2,
+    Team3,
+    Team4,
+    Team5,
+    Team6,
+    Team7
 }

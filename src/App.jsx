@@ -18,6 +18,7 @@ import Cta_block from "./components/cta_block/cta_block";
 import Case_studies from "./components/case_studies/case_studies";
 import Our_working_process from "./components/our_working_process/Our_working_process";
 import Team from "./components/team/team";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -57,6 +58,7 @@ function App() {
       <Case_studies />
       <Our_working_process />
       <Team />
+      <Footer />
     </>
   );
 }
