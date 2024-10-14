@@ -8,7 +8,7 @@ const Our_working_process = () => {
   return ( 
     <div className="Our-working-process">
         <div className="Title">
-            <h2 className="headingVer1">Our Working Process </h2>
+            <h2 className="headingVer1">Our Working Process</h2>
             <p>Step-by-Step Guide to Achieving Your Business Goals</p>
         </div>
         <div className="Content">
