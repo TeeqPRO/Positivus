@@ -2,7 +2,7 @@
 
 Welcome to the **Positivus Website** project! This is a modern, responsive website built with React, inspired by a beautifully crafted design on Figma. 
 
-![React](https://img.shields.io/badge/React-18.2.0-blue) ![Figma](https://img.shields.io/badge/Figma-Design-orange) ![CSS](https://img.shields.io/badge/Styled%20with-CSS-blueviolet)
+![React](https://img.shields.io/badge/React-18.3.1-blue) ![Figma](https://img.shields.io/badge/Figma-Design-orange) ![CSS](https://img.shields.io/badge/Styled%20with-CSS-blueviolet)
 
 ## 🔗 Figma Design Reference
 This project is based on a Figma design, which you can find [here](https://www.figma.com/community/file/1230604708032389430).
